@@ -268,7 +268,7 @@ class ReactCodeInput extends Component {
               ref={(ref) => {
                 this.textInput[i] = ref;
               }}
-              id={`${this.uuid}-${i}`}
+              id={`${this.name}-${i}`}
               data-id={i}
               autoFocus={autoFocus && (i === 0) ? 'autoFocus' : ''}
               value={value}
